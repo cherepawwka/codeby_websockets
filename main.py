@@ -22,3 +22,6 @@ async def codeby():
 
         response = await websocket.recv()
         print(response)
+
+
+asyncio.get_event_loop().run_until_complete(codeby())
